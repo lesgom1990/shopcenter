@@ -24,22 +24,21 @@
       margin-right: 30px;
   }
 
-  .section1 {
+  .section1, .section2 {
     display: inline-flex;
   }
 
-  .section2 {
-    display: inline-flex;
-  }
   
   .header__menu ul {
     display: none;
     list-style: none;
     margin: 0px 0px 0px -14px;
-    padding: 0px;
+    padding: 5px;
     position: absolute;
     width: 100px;
     text-align: right;
+    background-color:rgba(255, 255, 255, 0.274);
+    border-radius: 5px 5px 5px 5px;
   }
   .header__menu_list ul {
     display: none;
@@ -49,8 +48,8 @@
     position: absolute;
     width: 100px;
     text-align: center;
-    background-color: rgb(73, 41, 104);
-    border-radius: 5px 5px 5px 5px
+    background-color:rgba(255, 255, 255, 0.274);
+    border-radius: 5px 5px 5px 5px;
   }
   .header__menu:hover ul, ul:hover, .header__menu_list:hover ul {
       display: block;

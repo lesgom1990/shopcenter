@@ -4,6 +4,7 @@ import logo from '../assets/static/logo.png';
 import menu from '../assets/static/menu.png';
 import cart from '../assets/static/cart.png';
 import userIcon from '../assets/static/user-icon.png';
+import Search from '../components/Search.jsx'
 
 const Header = () => (
     <header className="header">
@@ -19,6 +20,7 @@ const Header = () => (
                 </ul>
             </div>
         </div>
+        <Search />
         <div className="section2">
             <img className="header__cart" src={cart} alt="" />
             <div className="header__menu">

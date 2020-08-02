@@ -1,0 +1,9 @@
+.banner__section {
+    margin-top: 80px;
+}
+
+.banner__img {
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+}
