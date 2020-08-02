@@ -49,6 +49,8 @@
     position: absolute;
     width: 100px;
     text-align: center;
+    background-color: rgb(73, 41, 104);
+    border-radius: 5px 5px 5px 5px
   }
   .header__menu:hover ul, ul:hover, .header__menu_list:hover ul {
       display: block;
